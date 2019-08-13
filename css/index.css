@@ -196,11 +196,11 @@ footer p {
     header{
       
         display: flex;
-        justify-content:center;
+        justify-content:space-around;
         height: 100%;
         align-items:center;
         flex-direction: column;
-        width:100%;
+        /* width:100%; */
         
 
       }  
@@ -214,10 +214,11 @@ footer p {
     }
    nav a{
        display:flex;
+       align-content: stretch;
 
-       justify-content: space-around;
-        margin-right:3%;
-        /* margin-left:3%; */
+       /* justify-content: space-around; */
+        /* margin-right:0%; 
+        margin-left:9%;  */
 
        
 
@@ -226,7 +227,9 @@ footer p {
         margin-top:2%;
         margin-bottom:5%;
         display:flex;
-        justify-content: center;
+        justify-content: space-around;
+        display:flex;
+       align-content: stretch;
         /* margin-left:7%; */
 
         
@@ -239,12 +242,12 @@ footer p {
     } 
     .container{
         width:95%;
-        /* padding-left:7%; */
+        padding-left:12%;
        
 
     }  
     .middle-img{
-        padding-right:3%;
+        /* padding-right:3%; */
     }
 
 
@@ -268,7 +271,7 @@ footer p {
 
 @media screen and (max-width: 500px) {
        .container{
-        width:95%;
+        width:100%;
         /* padding-left:7%; */
        
 
@@ -286,6 +289,7 @@ footer p {
     }  
     .logo{
         order: -1;
+        padding-bottom:6%;
         
 
     }
@@ -293,8 +297,8 @@ footer p {
         display:flex;
         flex-direction: column;
         
-        margin-top:2%;
-        width:100%;
+        /* margin-top:2%; */
+        width:150%;
         margin-left:0px;
         margin-right:0px;
     }
@@ -311,6 +315,7 @@ footer p {
     a:last-child{
         border-bottom:1px solid black;
         padding:3%;
+        width:100%;
         
         
     }
@@ -344,7 +349,8 @@ footer p {
     margin:2.5%;
     display:flex;
     flex-direction: column;
-    align-items:flex-start;
+    /* align-items:flex-start; */
+    align-items: center;
    }
    p{
        font-size:20px;
@@ -410,8 +416,10 @@ footer p {
         border:none;
         margin:none;
         padding:none;
-        display:inline-block;
-        text-align:left;
+        display:flex;
+        justify-content: flex-start;
+        font-size: 18px;
+        margin-left:-2%;
     }
 
 }
